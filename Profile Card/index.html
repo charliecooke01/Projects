@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Icons link-->
+    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+</head>
+<body>
+    <section>
+        <!--Top box, Profile pic, name, job, social icons-->
+        <div class ="personal">
+            <img src="https://randomuser.me/api/portraits/women/21.jpg" id="photo"class="photo"/>
+            <h1><span id="name">Zoey Davis</span></h1>
+            <h2><span id="job">Web Developer</span></h1>
+            <!-- Links are working fine but throwing some errors so removed
+            <a class ="social" href="https://linkedin.com" target="_blank"><img src="https://img.icons8.com/material/ffffff/24/linkedin--v1.png" alt="linkedin" width="24" height="24"></a>
+            <a class ="social" href="https://facebook.com" target="_blank"><img src="https://img.icons8.com/material-sharp/ffffff/24/facebook-new.png" alt="facebook" width="24" height="24"></a>
+            <a class ="social" href="https://instagram.com" target="_blank"><img src="https://img.icons8.com/material-rounded/ffffff/24/instagram-new.png" alt="instagram" width="24" height="24"></a>
+            -->
+            <img class ="social" width="24" height="24"src="https://img.icons8.com/material/ffffff/24/linkedin--v1.png" alt="linkedin"/>
+            <img class="social" width="24" height="24" src="https://img.icons8.com/material-sharp/ffffff/24/facebook-new.png" alt="facebook"/>
+            <img class="social" width="24" height="24" src="https://img.icons8.com/material-rounded/ffffff/24/instagram-new.png" alt="instagram"/>
+        </div>
+        <!--Get new user button-->
+        <div class="refresh">
+            <button id="btn"></button>
+        </div>
+        <!--Get new user button-->
+        <div class="info">
+            <p>phone: <span id="phone">(207) 869-8244</span></p>
+            <p>Email: <span id="email">zoey.davis@example.com</span></p>
+        </div>
+    </section>
+        <script src="script.js"></script>
+</body>
+</html>
