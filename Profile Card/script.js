@@ -1,8 +1,6 @@
 //connect to button
 const btn = document.getElementById("btn");
 
-
-
 //click event
 btn.addEventListener("click", function () {
   getPerson(getData);
